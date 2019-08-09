@@ -1,6 +1,6 @@
 {
     "name":"gerenciagram/laravel_sendgrid_mail_helper",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A simple Helper to send Sendgrid emails in Laravel Projects",
     "type": "library",
     "authors": [
