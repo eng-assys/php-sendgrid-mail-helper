@@ -7,7 +7,7 @@ A simple Helper to send Sendgrid emails in Laravel Projects.
 ### Step 1
 
 ```bash
-composer require gerenciagram/laravel_sendgrid_mail_helper
+composer require gerenciagram/laravel_sendgrid_mail_helper:0.0.1
 ```
 
 ### Step 2
