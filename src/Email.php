@@ -16,7 +16,7 @@ class Email {
         $attachments = []
     ) {
 
-        $sendgrid = new SendGrid(config('sendgrid_api_key'));
+        $sendgrid = new SendGrid(config('sendgrid_mail.sendgrid_api_key'));
 
         if (isset($content)) {
             $content = new \SendGrid\Mail\Content(
