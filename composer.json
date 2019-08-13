@@ -1,29 +1,28 @@
 {
-    "name":"gerenciagram/laravel_sendgrid_mail_helper",
-    "version": "0.0.2",
-    "description": "A simple Helper to send Sendgrid emails in Laravel Projects",
-    "type": "library",
-    "authors": [
-       {
-           "name": "Lucas Vinicius dos Santos Assis",
-           "email": "lucas.assis@gerenciagram.com",
-           "homepage": "https://www.linkedin.com/in/lucas-assis-81646a58/",
-           "role": "Tech Leader"
-       },
-       {
-        "name": "Lucas Paiva",
-        "email": "lucas.paiva@gerenciagram.com",
-        "role": "Developer"
-        }
+   "name": "gerenciagram/php-sendgrid-mail-helper",
+   "version": "0.0.2",
+   "description": "A simple Helper to send Sendgrid emails in Php Projects",
+   "type": "library",
+   "authors": [
+      {
+         "name": "Lucas Vinicius dos Santos Assis",
+         "email": "lucas.assis@gerenciagram.com",
+         "homepage": "https://www.linkedin.com/in/lucas-assis-81646a58/",
+         "role": "Tech Leader"
+      },
+      {
+         "name": "Lucas Paiva",
+         "email": "lucas.paiva@gerenciagram.com",
+         "role": "Developer"
+      }
    ],
    "require": {
-       "php": ">=7.2",
-       "sendgrid/sendgrid": "^7.2"
-    },
-    "autoload":{
-       "psr-4":{
-          "SendgridHelper\\":"src/"
-       }
-    }
- }
- 
+      "php": ">=7.2",
+      "sendgrid/sendgrid": "^7.2"
+   },
+   "autoload": {
+      "psr-4": {
+         "SendgridHelper\\": "src/"
+      }
+   }
+}
