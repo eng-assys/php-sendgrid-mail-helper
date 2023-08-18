@@ -1,4 +1,4 @@
-# Php Sendgrid Mail Helper
+# PHP SENDGRID MAIL HELPER
 
 A simple Helper to send Sendgrid emails in Php Projects.
 
